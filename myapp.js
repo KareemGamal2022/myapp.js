@@ -1,7 +1,8 @@
 // myapp.js
 
 const manifestUri =
-    'https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd';
+    'https://ssc-5-ak.akamaized.net/out/v1/f6fe5eeb66624eba8a775b31b102ef90/index.mpd';
+const licenseServer = 'https://forja.website/license/widevine/shahid.php';
 
 function initApp() {
   // Install built-in polyfills to patch browser incompatibilities.
